@@ -154,7 +154,7 @@ main > div{
 }
 
 #workers{
-    background-image: url('http://ack1.ru/wp-content/uploads/2020/11/remont.jpg');
+    background-image: url('/astrey/remont.jpg');
     background-attachment: fixed;
     background-size: cover;
     text-shadow: 1px 1px 2px black;
