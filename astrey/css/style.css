@@ -1,0 +1,365 @@
+partnersbody{
+    z-index: -9999;
+}
+.mobile{
+    display: none;
+}
+#thumb {
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("/images/slider-first.jpg");
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 3rem;
+    color: white;
+}
+.work {
+    margin-bottom: 2rem;
+}
+.work .row {
+    margin-top: 1.4rem;
+}
+.switcher .active {
+    background-color: #fafafa;
+}
+#thumb .container {
+    text-align: center;
+}
+
+.thumb-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 0.4rem;
+}
+
+
+.thumb-content h4 {
+    padding: 0.5rem 0.7rem;
+    padding-top: 0;
+    background-color: rgb(24, 32, 39);
+}
+@media screen and (max-width:767px) {
+    .no-mobile{
+        display: none;
+    }
+}
+
+nav{
+    z-index: 1;
+    position: fixed;
+
+}
+.tel{
+    text-decoration: none;
+}
+
+/*#carouselExampleInterval img{*/
+/*    width: 100%;*/
+/*    height: auto;*/
+/*    display: block;*/
+/*    !* object-fit: cover; *!*/
+/*    !* position: fixed; *!*/
+/*    !* z-index: -1; *!*/
+/*    top:0;*/
+/*}*/
+/*#carouselExampleInterval{*/
+/*    !* position: ;    *!*/
+/*    width: 100%;*/
+/*    !* margin-top: -4rem; *!*/
+/*    !* z-index: 0; *!*/
+/*    height: 90vh;*/
+/*}*/
+/*#carouselExampleInterval .carousel-inner{*/
+/*    height: 90vh;*/
+/*}*/
+
+h1{
+    text-shadow: 1px 1px 2px black;
+    margin-bottom: 1rem;
+}
+
+/*h3.d-inline{
+    margin-right:1rem;
+    background-color: rgb(24, 32, 39);
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+}
+#thumb h4{
+    background-color: aqua;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+}*/
+
+
+/* main */
+main{
+    width: 100%;
+    max-width: 768px;
+    margin: auto;
+    margin-top: 2rem;
+}
+main > div{
+    margin:auto;
+    margin-top: 4rem;
+}
+
+#slider-desc {
+    display: flex;
+    flex-direction: column;
+}
+.slider-description {
+ margin-bottom: auto;  
+ 
+}
+.slider-footer {
+    border-top: 1px solid rgb(24, 32, 39);
+    font-size: 18px;
+    display: flex;
+    padding-top: 0.5rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#fabrika .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#fabrika {
+    margin-bottom: 2rem;
+}
+.row-reverse {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.thumb {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+#works{
+    justify-content: space-between;
+}
+
+#workers{
+    background-image: url('http://ack1.ru/wp-content/uploads/2020/11/remont.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    text-shadow: 1px 1px 2px black;
+    padding: 3rem;
+    padding-top: 8rem;
+    padding-bottom: 1.5rem;
+}
+
+/* contact */
+.form > * {
+    margin-top:0.5rem;
+}
+.both {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#contacts {
+ font-size: 22px;
+}
+#contacts ul {
+    list-style: none;
+}
+
+#contacts a {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .item {
+        padding: 1rem;
+    }    
+    
+    #contacts ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 10px;
+        justify-content: space-evenly;
+        margin-top: 2rem;
+    }
+
+    #contacts span{
+        display: none;
+    }
+    #fabrika .row {
+        flex-direction: column-reverse;
+    }
+}
+.partner{
+    max-width: 200px;
+    max-height: 100px;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.partners{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    row-gap: 30px;
+
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: none;
+}
+.item:first-child{
+    display: block;
+}
+
+a{
+    color:rgb(24, 32, 39);
+    text-decoration: none;
+}
+
+
+/* footer */
+footer{
+    width: 90%;
+    margin: auto;
+    margin-top:2rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    border-top: 1px solid rgb(88, 88, 88);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 6px;
+}
+.btn-outline-success:hover {
+    background-color: #28a745;
+    border-color: #28a745;
+    
+}
+.btn-outline-success {
+    border-color: #28a745;
+    color: #28a745;
+    flex-shrink: 0;
+}
+
+.switcher{
+    margin-top:0;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    
+}
+.switcher div{
+    padding: 0.7rem;
+    background-color: #f3f2f2;
+    border-radius: 7px;
+}
+.slider {
+    position: relative;
+    height: 60vh;
+    width: 100%;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #f4f4f4;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;
+}
+.detalis {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.detalis li {
+    padding-bottom: 6px;
+    border-bottom: 1px solid aqua;
+}
+.detalis span {
+    font-weight: bold;
+}
+
+#top {
+    position: fixed;
+    left: 100px;
+    background-color: aliceblue;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    bottom: 70px;
+    box-shadow: 0.1rem 0.1rem 1.5rem 0.01rem rgba(0,0,0, 0.05);
+}
+
+@media screen and (max-width: 790px) {
+    #top {
+        left: 10px;
+        bottom: 15px;
+    }
+}
