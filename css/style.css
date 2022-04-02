@@ -9,7 +9,7 @@ partnersbody{
     height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("/images/slider-first.jpg");
+    background-image: url("/astrey/images/slider-first.jpg");
     display: flex;
     align-items: flex-end;
     justify-content: center;
